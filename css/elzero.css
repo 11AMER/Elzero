@@ -1314,7 +1314,6 @@ header .mega-menu i {
 /* Stats End */
 /* Discounts Start */
 .discounts {
-  min-height: 100vh;
   display: flex;
 }
 .discounts .poster,
@@ -1382,6 +1381,11 @@ header .mega-menu i {
 @media (max-width: 991px) {
   .discounts {
     flex-direction: column;
+  }
+}
+@media (min-width: 992px) {
+  .discounts {
+      min-height: 100vh;
   }
 }
 /* Discounts End */
